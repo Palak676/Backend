@@ -32,7 +32,7 @@ The API follows RESTful principles and was tested using **Postman** to ensure al
 ## Project Structure
 
 ```
-book-records-api/
+restful-api-assign/
 │
 ├── config/
 │   └── db.js
@@ -46,7 +46,7 @@ book-records-api/
 ├── routes/
 │   └── bookRoutes.js
 │
-├── app.js
+├── server.js
 ├── package.json
 ├── .env
 └── README.md
@@ -73,19 +73,19 @@ book-records-api/
 {
   "title": "Atomic Habits",
   "author": "James Clear",
-  "price": 499,
-  "genre": "Self Help"
+  "type": "fiction",
+  "year": 2018
 }
 ```
 ## 📤 Sample Response
 
 ```json
 {
-  "_id": "684d1234567890abcdef123",
   "title": "Atomic Habits",
   "author": "James Clear",
-  "price": 499,
-  "genre": "Self Help"
+  "type": "fiction",
+  "year": "2018"
+  "_id": "6900fb7ac9a688a99eefe02c",
 }
 ```
 ## 🧪 Testing
@@ -106,13 +106,13 @@ The API was tested using **Postman**.
 ### Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/book-records-api.git
+git clone https://github.com/yourusername/restful-api-assign.git
 ```
 
 ### Navigate to the project folder
 
 ```bash
-cd book-records-api
+cd restful-api-assign
 ```
 
 ### Install dependencies
@@ -131,7 +131,7 @@ MONGODB_URI=your_mongodb_connection_string
 ### Start the server
 
 ```bash
-node app.js
+node server.js
 ```
 
 ## 📷 Screenshots
