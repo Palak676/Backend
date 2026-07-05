@@ -137,12 +137,12 @@ node app.js
 ## 📷 Screenshots
 Screenshots of your Postman requests.
 ```
-connection.png
-get-books.png
-get-book-by-id.png
-add-book.png
-update-book.png
-delete-book.png
+connection.jpg
+get-books.jpg
+get-book-by-id.jpg
+add-book.jpg
+update-book.jpg
+delete-book.jpg
 ```
 
 
